@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\Horn\OneDrive - Multi-Media Berufsbildende Schulen\22_23\LF12\FIAE20J\TDD\lf12a\src\main\java\mmbbs\tdd\App.java">
+<error line="6" column="1" severity="error" message="Hilfsklassen sollten keinen Standard-Konstruktur und keinen als public deklarierten Konstruktor haben." source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="16" column="5" severity="error" message="&apos;{&apos; an Position 5 sollte in der vorherigen Zeile stehen." source="com.puppycrawl.tools.checkstyle.checks.blocks.LeftCurlyCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="C:\Users\Horn\OneDrive - Multi-Media Berufsbildende Schulen\22_23\LF12\FIAE20J\TDD\lf12a\src\test\java\mmbbs\tdd\AppTest.java">
+<error line="4" column="1" severity="error" message="&apos;org.junit.jupiter.api.Assertions.assertEquals&apos; sollte von vorherigen Importen durch eine leere Zeile abgesetzt sein." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="Hinter &apos;}&apos; steht mehr als eine leere Zeile." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+</checkstyle>
